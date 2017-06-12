@@ -1,0 +1,270 @@
+﻿body
+{
+   font-size:12pt;
+   font-family:Courier;
+   height:100%;
+   width:99%;
+   position:fixed;
+}
+
+h2
+{
+   text-decoration:underline;
+}
+
+.wrap
+{
+    margin:2%;
+    display:flex;
+    text-align:center;
+}
+
+.wrap img
+{
+    float:left;
+    width:528px;
+    height:128px;    
+}
+
+.sideBar h4
+{
+   color:blue;
+   margin-top:30%;
+}
+
+.sideBar h1
+{
+   color:red;
+   font-weight:bold;
+   font-size:3.5em;
+}
+
+.sideBar
+{
+   width:25%;
+   background-color:#c3b7fd;
+   text-align:center;
+}
+ 
+.sideBar ul li
+{
+   position:relative;
+   right:1.4em;
+   display:flex;
+   font-family:Times New Roman;
+   justify-content:center;
+   width:100%;
+   letter-spacing:0.3em;
+   word-spacing:0.2em;
+}
+
+.sideBar li a
+{
+   text-transform:uppercase;
+   font-size:0.8em;
+   text-decoration:none;
+   font-weight:bold;
+   padding:2.8em;
+   margin:10px;
+   border: 2px solid green;
+   border-radius: 50px 0px 50px 0px;
+   width:9em;
+   transform: rotate(-5deg);   
+}
+
+.sideBar li a:link
+{
+    color:white;
+}
+
+.sideBar li a:visited
+{
+    color:grey;
+}
+
+.sideBar li a:hover 
+{
+    text-decoration:underline;
+    color:black;
+    background-color:white;
+}
+
+.sideBar li a:active 
+{
+    color:purple;
+}
+
+#commonBar
+{
+   position:relative;
+   left:5em;
+   top:1em;
+   width:90%;
+   height:28%;
+   display:inline-flex;
+   align-items: center;
+}
+
+#commonBar ul li
+{
+   position:relative;
+   left:-1.2em;
+   display:inline;
+   font-family:Times New Roman;
+   word-spacing:0.45em;
+}				/* style for ul in navbar */
+
+#commonBar li a
+{
+    text-transform:uppercase;
+    font-size:0.8em;
+    text-decoration:none;
+    font-weight:bold;
+}				/* anchor style in navbar */
+
+#commonBar li a:link
+{
+    color:white;
+}
+
+#commonBar li a:visited
+{
+    color:grey;
+}
+
+#commonBar li a:hover 
+{
+    text-decoration:underline;
+    color:black;
+}
+
+#commonBar li a:active 
+{
+    color:purple;
+}
+
+#searchBar
+{
+   position:relative;
+   top:2em;
+   width:90%;
+   border:0.1em solid green;
+   border-radius:2em;
+   height:35%;
+   display:inline-flex;
+   align-items: center;
+}
+
+#searchBar input[type=text]
+{
+    position:relative;
+    float:left;
+    background-color: #c3b7fd;
+    color:white;
+    width:83%;
+    height:1.5em;
+    border:0;
+    top:0.1em;
+    left:1em;
+}				/*input text style in search box*/
+
+#searchBar input[type=submit]
+{
+   position:relative;
+   float:right;
+   width:2em;
+   height:2em;
+   background:url("searchIcon.png");
+   border:0;
+   bottom:0.2em;
+   left:1.3em;
+}
+
+#area
+{
+   width:30%;
+   float:right;
+   margin-left:18.7%;
+   display:inline-block;
+   text-align:center;
+}
+
+#head h2
+{
+   position:relative;
+   left:2em;
+   top:0.5em;
+}
+
+#head img
+{
+   position:relative;
+   left:1.5em;
+   width:256px;
+   height:128px;  
+}
+
+#banner
+{   
+   display:flex;
+   width:100%;
+   background-color:#c3b7fd;
+   border:0.1em solid green;
+   height:10em;
+}
+
+#head
+{
+   display:flex;
+   position:relative;
+   float:left;
+   width:51%;
+   height:70%;
+   top:13%;
+}
+
+
+#content
+{
+   width:100%;
+   display:flex;
+   height:75%;
+}
+
+#mainContent
+{
+   display:inline-block;
+   width:50%;
+   background-color:#ad9aff;
+}
+
+#mainContent p
+{
+   color:black;
+   padding:1em;
+}
+
+#mainContent li img
+{
+   position:relative;
+   top:2em;
+   height:64px;
+   width:64px;
+}
+
+#mainContent h3,#mainContent h4
+{
+  font-style:italic;
+  padding:1em;
+  color:green;
+}
+
+#footer
+{
+   display:flex;
+   justify-content:center;
+   width:100%;
+   background-color:#e9e7f2;
+   color:#408e4b;
+   height:25%;
+}
